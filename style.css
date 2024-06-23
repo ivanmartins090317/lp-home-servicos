@@ -2,30 +2,68 @@
 #corpo {display: block;position: relative;margin: 0 auto; width: 100%;max-width: 1600px;box-sizing: border-box; padding: 0; font-family: 'Open Sans', sans-serif; color: #000000;overflow: hidden; background:#FFFFFF; text-align: center;}
 /* TEXTO TOPO */
 #corpo .texto-topo{ text-align: center; }
-#corpo .texto-topo img{ width:36%; margin-top:5%; }
+#corpo .texto-topo img{ width:44%; margin-top:5%; }
+#corpo .texto-topo P { font-size:3vw; width:714px; margin:2% auto 4%; }
 
-#corpo .texto-topo P { font-size:2.1vw; width:38%; margin:2% auto 4%; }
-#corpo .texto-topo h2.sub-titulo{ font-size:3.6vw; font-weight:700; margin-bottom:5%; }
-#corpo .texto-topo P.bold { font-size:2.3vw; font-weight:700; } 
-
+#corpo .text-fast-top h3{ font-size:2.2vw; font-weight:700; margin-bottom:3%; }
+#corpo .text-fast-top p{ font-size:2.2vw; width:79%; margin:2% auto; }
+/* TITULO SEÇÃO DE SERVIÇOS */
+.titulo-section-servicos h3{
+  font-size: 2.2vw;
+  font-weight: 400;
+  margin: 10% 0 5%;
+}
 /* SEÇÃO DE SERVIÇOS*/
-#corpo .banner_servico::before { padding-top: 26.0625%; }
+#corpo .lp_01::before { padding-top: 65.0625%; }
 
 #corpo .banner_servico{
   display:flex;
   flex-direction:column;
   width:90%;
-  margin: 0 auto;
+  margin: 0 auto 10%;
 }
 #corpo .banner_servico .servico{
   display:flex;
 }
 #corpo .banner_servico picture{
-  width:50%;
+  width:100%;
   margin-right:2%
 }
 #corpo .texto-servico{
   text-align:left;
+  width:85%;
+  margin: -3% 0% 0 5%;
+}
+#corpo .banner_servico .servico .texto-servico h2{
+  font-size:4.1vw;
+}
+#corpo .banner_servico .servico .texto-servico h3{
+    font-size: 2.6vw;
+    width: 101%;
+    margin:-4% 0 16%;
+    font-weight: 400;
+}
+#corpo .banner_servico .servico .texto-servico p{
+  font-size:1.9vw;
+  width:101%;
+}
+#corpo .banner_servico .servico .texto-servico button{
+    display: block;
+    width: 180px;
+    margin-top:24%;
+    border: none;
+    outline: none;
+    border: 1px solid #111111;
+    padding: 3%;
+    border-radius: 38px;
+    background:transparent;
+}
+/* lp_02 */
+#corpo .lp_02::before { padding-top: 69.0625%; }
+#corpo .lp_02 .texto-servico {
+    text-align: left;
+    width: 85%;
+    margin: -3% 5% 0 0%;
 }
 /* BANNER */
 #corpo .banner_artista::before{ padding: 0; padding-top: 50.0625%; }
