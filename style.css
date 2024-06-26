@@ -3,15 +3,16 @@
 /* TEXTO TOPO */
 #corpo .texto-topo{ text-align: center; }
 #corpo .texto-topo img{ width:44%; margin-top:5%; }
-#corpo .texto-topo P { font-size:3vw; width:714px; margin:2% auto 4%; }
+#corpo .texto-topo P { font-size:2.2vw; width:36%; margin:2% auto 4%; }
 
 #corpo .text-fast-top h3{ font-size:2.2vw; font-weight:700; margin-bottom:3%; }
-#corpo .text-fast-top p{ font-size:2.2vw; width:79%; margin:2% auto; }
+#corpo .text-fast-top p{ font-size:2vw; width:74%; margin:2% auto; }
+#corpo .text-fast-top .texto-chamada-topo {width:70%; margin-top:5%;}
 /* TITULO SEÇÃO DE SERVIÇOS */
 .titulo-section-servicos h3{
   font-size: 2.2vw;
   font-weight: 400;
-  margin: 10% 0 5%;
+  margin: 6% 0 5%;
 }
 /* SEÇÃO DE SERVIÇOS*/
 #corpo .lp_01::before { padding-top: 65.0625%; }
@@ -26,8 +27,8 @@
   display:flex;
 }
 #corpo .banner_servico picture{
-  width:100%;
-  margin-right:2%
+  width:85%;
+  margin-right:0%
 }
 #corpo .texto-servico{
   text-align:left;
@@ -35,131 +36,233 @@
   margin: -3% 0% 0 5%;
 }
 #corpo .banner_servico .servico .texto-servico h2{
-  font-size:4.1vw;
+  font-size:3vw;
 }
 #corpo .banner_servico .servico .texto-servico h3{
-    font-size: 2.6vw;
+    font-size: 2.2vw;
     width: 101%;
-    margin:-4% 0 16%;
     font-weight: 400;
 }
 #corpo .banner_servico .servico .texto-servico p{
-  font-size:1.9vw;
+  font-size:2vw;
   width:101%;
 }
 #corpo .banner_servico .servico .texto-servico button{
     display: block;
-    width: 180px;
-    margin-top:24%;
-    border: none;
-    outline: none;
-    border: 1px solid #111111;
-    padding: 3%;
-    border-radius: 38px;
-    background:transparent;
+     width: 45%;
+     margin-top:6%;
+     border: none;
+     outline: none;
+     border: 1px solid #111111;
+     padding: 6% 0%;
+     border-radius:999px;
+     background:transparent;
+     font-size:2vw;
 }
-/* lp_02 */
+
+/* lp_02 usado para as seções com imagem a direita*/
 #corpo .lp_02::before { padding-top: 69.0625%; }
 #corpo .lp_02 .texto-servico {
     text-align: left;
     width: 85%;
     margin: -3% 5% 0 0%;
 }
-/* BANNER */
-#corpo .banner_artista::before{ padding: 0; padding-top: 50.0625%; }
-#corpo .banner_artista{position: relative;display: block;width: 100%; margin: 0 auto;}
-#corpo .banner_artista picture{display: block;width: 100%;}
-#corpo .banner_artista picture img{position: relative;display: block;width: 97%; margin: 0 auto}
-#corpo .banner_artista .texto-artista p{ font-size:1.2vw; margin: 4% auto; }
-#corpo .banner_artista .texto-artista h2{ font-size:1.6vw; margin-bottom: 3%; }
-#corpo .banner_artista .texto-artista hr{ width:66%; margin: 3% auto 5%; }
-/* SEÇÃO BENEFICOS */
+#corpo .lp_02  .texto-servico p{
+  margin-bottom:23%;
+}
+/* SEÇAO DE ORIENTAÇÃO */
+#corpo .banner_servico .servico .orientacao h2{
+  width:84%;
+}
+#corpo .banner_servico .servico .orientacao h3{
+  margin-bottom:13%;
+}
+#corpo .banner_servico .servico .orientacao button{margin-top:29% }
 
-#corpo .beneficios p{ font-size:2.3vw; width:94%; margin:2% auto; }
-#corpo .beneficios picture img{ width:80%; } 
-#corpo .beneficios h2{ font-size:3vw; margin:11% 0 6%; font-weight:400; }
-#corpo .beneficios-card::before{ padding: 0; padding-top: 62.0625%; }
-#corpo .beneficios-card{ margin-bottom:12%; }
-#corpo .beneficios-card picture{ width: 100%; margin: 0 auto; }
-#corpo .beneficios .orientacao{ font-size:1.2vw; width:59%; margin: 8% auto 10%; }
-/* BENEFICIOS SUPORTE TÉCNICO */
-#corpo .imagem-avo::before{ padding-top: 51.0625%; }
-#corpo .beneficios_suporte .texto-topo-suporte{ margin-top:-7%; }
-#corpo .beneficios_suporte .texto-topo-suporte P { font-size:2.1vw; width:38%; margin:2% auto 4%; }
-#corpo .beneficios_suporte .texto-topo-suporte h2.sub-titulo{ font-size:4.2vw; font-weight:700; margin-bottom:5%; }
-#corpo .beneficios_suporte .texto-topo-suporte P.bold { font-size:3.1vw; font-weight:700; margin: -3% auto 7%; width: 80%; } 
-#corpo .beneficios_suporte h2{ font-size:3vw; margin:11% 0 6%; font-weight:400; }
-#corpo .beneficios_suporte p{ font-size:2.3vw; width:95%; margin:2% auto; }
-#corpo .beneficios-card-suporte::before{ padding-top: 95.0625%; }
-#corpo .beneficios-card-suporte picture img{ width:80%; }
+/* SEÇAO DE SEGURO */
+#corpo .banner_servico .servico .seguro h2{
+  width:72%;
+}
+#corpo .banner_servico .servico .seguro h3{margin-bottom:9%}
+#corpo .banner_servico .servico .seguro button{margin-top: -8%}
+/* SEÇAO DE GARATIA ESTENDIDA */
+#corpo .banner_servico .servico .garantia h2{
+  width:101%;
+}
+#corpo .banner_servico .servico .garantia h3{margin-bottom:9%;}
+#corpo .banner_servico .servico .garantia button{margin-top:12% }
+/* SEÇAO SUPORTE TECNICO*/
+#corpo .banner_servico .servico .suporte h2{width:78%;}
+#corpo .banner_servico .servico .suporte h3{margin-bottom:8}
+#corpo .banner_servico .servico .suporte button{margin-top:-10% }
+/* SEÇAO CASA INTELIGENTE*/
+#corpo .banner_servico .servico .casa h2{width:78%;}
+#corpo .banner_servico .servico .casa h3{margin:10% auto 14%}
+#corpo .banner_servico .servico .casa button{margin-top:25% }
 
-/* VIDEO */
-#corpo .video::before{ padding: 0; padding-top: 76%; margin-bottom:10%; }
-#corpo .video .video-box{ z-index:10; }
-/* SOBRE A ARTISTA */
-#corpo .sobre-artista::before{ padding: 0; padding-top: 63.0625%; }
+/* SEÇÃO DE GRUPO DE ARTISTA */
+#corpo .grupo-artista::before{ padding-top: 56.0625%; }
+#corpo .texto-sobre-artistas{margin:7% auto;}
+#corpo .texto-sobre-artistas h3,
+#corpo .texto-sobre-artistas p
+{ font-size:3vw; line-height:3vw;}
+#corpo .texto-sobre-artistas img{width:43vw; margin-bottom:5%;}
+#corpo .texto-sobre-artistas .texto-complemento p{font-size:2vw; width:80%; margin:0 auto;}
+#corpo .texto-sobre-artistas button{
+    margin:8% auto;
+    display: block;
+     width: 18%;
+     margin-top:6%;
+     border: none;
+     outline: none;
+     border: 1px solid #111111;
+     padding: 2.5% 0%;
+     border-radius:999px;
+     background:transparent;
+     font-size:2vw;
+}
 
-#corpo .sobre-artista picture{ width:94%; margin:0 auto; }
-#corpo .sobre-artista h2{ font-size: 2.3vw; margin: 10% auto 6%; font-weight:400; }
-#corpo .sobre-artista a{ position: absolute; width: 17%; height:7%; background-color: transparent; bottom: 25%; left: 50%; }
-/* CARROUSSEL SEVIÇOS */
-#corpo .carroussel-servicos::before{ padding: 0; padding-top: 64.0625%; }
-#corpo .carroussel-servicos{ margin-bottom:10%; position:relative; }
-#corpo .carroussel-servicos .texto-carrossel{ margin-top:6%; }
-#corpo .carroussel-servicos .texto-carrossel img{ width:26vw; margin:3.5% }
-#corpo .carroussel-servicos .texto-carrossel p{ font-size: 1.6vw; margin: -2.5vw 0 8%; padding:0; }
-#corpo .carroussel-servicos picture{ display: inline-block; width:90%; margin:0 auto; }
-#corpo .carroussel-servicos picture a{ position: absolute; width: 36%; height: 7%; background-color: transparent; bottom: 0%; left: 3%; }
-
-/* NAVEGAÇÃO DO CARROUSSEL */
-#corpo .carroussel-servicos .owl-carousel.owl-drag .owl-item { width:300px; }
-
-#corpo .carroussel-servicos .owl-nav{ width:100%; position: absolute; top:43%; display:flex; align-items:center; justify-content:center; }
-#corpo .carroussel-servicos .owl-nav .owl-next, #corpo .carroussel-servicos .owl-nav .owl-prev{ width:50px; height:50px; border-radius:50%; background:#Fff; }
-#corpo .carroussel-servicos .owl-nav .owl-prev{ position:absolute; left:0.5vw; }
-#corpo .carroussel-servicos .owl-nav .owl-next{ position:absolute; right:0.2vw; }
 
 /* ----Responsividade media query---- */
 
+@media screen and (min-width: 1601px){
+  #corpo .banner_servico .servico .texto-servico h2{
+  font-size:51px;
+}
+#corpo .banner_servico .servico .texto-servico h3{
+    font-size: 37px;
+}
+#corpo .banner_servico .servico .texto-servico p{
+  font-size:34px;
+}
+#corpo .banner_servico .servico .texto-servico button,
+ {
+    width: 222px;
+       padding: 5% 0%;
+           font-size: 27px;
+
+}
+#corpo .texto-sobre-artistas button{
+  width: 222px;
+        padding: 2% 0%;
+        font-size: 27px;
+    }
+}
+
 
 @media screen and (max-width: 1100px) {
-/* LOGO FASTSHOP TOPO */
-#corpo .texto-topo img{ width:34%; }
-/* TEXTO TOPO */
-#corpo .texto-topo P{ font-size:2vw; }
-#corpo .texto-topo h2.sub-titulo{ font-size:4.2vw; width: 58%; margin: 1% auto 6%; }
-#corpo .texto-topo P.bold{ font-size:2.3vw; width:80%; }
+/* CENTRALIZANDO ELEMENTOS */
+#corpo .banner_servico .servico{
+  display:flex;
+  flex-direction:column;
+}
+/* CRIANDO BEFORE PADRÃO */
+#corpo .lp_01::before {
+    padding-top: 218.0625%;
+}
+#corpo .lp_02::before {
+    padding-top: 218.0625%;
+}
+/* MUDANDO OS ELEMENTOS DE  POSIÇÃO */
+#corpo .lp_02 .servico .texto-servico{
+  order:2;
+          text-align: center;
+        width: 100%;
+        margin: 0 auto;
+}
+#corpo .lp_02 .servico .texto-servico picture{
+  order:1
+}
+#corpo .banner_servico picture {
+  margin:0 auto;
+}
+#corpo .texto-servico {text-align:center; margin:0 auto;}
 
-/* BANNER TOPO */
-#corpo .banner_artista::before { padding-top: 82.0625%; }
-#corpo .banner_artista .texto-artista p,
-#corpo .banner_artista .texto-artista h2 { font-size:3vw; }
-#corpo .banner_artista .texto-artista hr { width: 84%; }
-/* SEÇAO BENEFICIOS */
-#corpo .beneficios p { font-size: 3.2vw; width: 85%; margin: 2% auto; line-height: 5.5vw; }
-#corpo .beneficios h2 { margin: 6%; }
-#corpo .beneficios-card::before { padding-top: 91%; } 
-#corpo .beneficios .orientacao{ font-size:2vw; width: 52%; margin: 5% auto 10%; line-height:3vw; }
-/* SEÇÃO BENEFICIOS SUPORT TÉCNICO */
-#corpo .imagem-avo::before { padding-top: 85.0625%; }
-#corpo .beneficios_suporte .texto-topo-suporte{ margin-top:0; }
-#corpo .beneficios_suporte .texto-topo-suporte h2.sub-titulo { margin: 7% auto; width: 49%; }
-#corpo .beneficios_suporte p { font-size: 3.2vw; width: 89%; margin: 2% auto; line-height:5.5vw; }
-#corpo .beneficios_suporte .texto-topo-suporte P.bold { font-size: 2.3vw; }
-/* SEÇÃO VIDEO */
-#corpo .video:before { padding-top: 88.0625%; }
-#corpo .video{ margin-bottom: -6%; }
-/* SOBRE A ARTISTA */
-#corpo .sobre-artista::before { padding-top: 113.0625%; } #corpo .sobre-artista picture { width: 100%; }
-#corpo .sobre-artista h2 { font-size: 2.7vw; }
-#corpo .sobre-artista a {bottom: 33%}
-/* seçao carrossel */
-#corpo .carroussel-servicos::before { padding-top: 88.0625%; }
-#corpo .carroussel-servicos .texto-carrossel img { width: 46vw; margin-bottom: 5%; }
-#corpo .carroussel-servicos .texto-carrossel h2 { font-size: 6vw; }
-#corpo .carroussel-servicos .texto-carrossel p { font-size: 2.9vw; }
-#corpo .carroussel-servicos .owl-nav {top:40%}
-#corpo .carroussel-servicos .owl-nav .owl-next, #corpo .carroussel-servicos .owl-nav .owl-prev { width: 22px; height: 22px; border-radius: 50%; }
+/* CONFIGURAÇÃO PARA TODOS OS TEXTOS */
+#corpo .banner_servico .servico .orientacao h2,
+#corpo .banner_servico .servico .seguro h2,
+ #corpo .banner_servico .servico .garantia h2,
+ #corpo .banner_servico .servico .suporte h2,
+ #corpo .banner_servico .servico .casa h2
+{
+    width: 100%;
+    font-size:4.9vw;
+}
+#corpo .banner_servico .servico .texto-servico h3,
+#corpo .banner_servico .servico .texto-servico p
+{font-size:3.6vw;}
+/* CONFIGURAÇÃO DOS BOTÕES */
+#corpo .banner_servico .servico .texto-servico button
+ {
+    width: 63%;
+    font-size:4vw;
+     padding: 3.4% 0%;  
+
+}
+#corpo .texto-sobre-artistas button{
+  width: 60%;
+  font-size:4vw;
+        
+    }
+/* SEÇÃO DO TOP */
+#corpo .texto-topo img{ width:50%; }
+#corpo .texto-topo P{font-size:4.9vw; margin: 6% auto 10%; width: 67%;}
+#corpo .text-fast-top p{
+  width:90%;
+ font-size:3.6vw;
+}
+#corpo .text-fast-top h3{font-size:3.6vw; margin-bottom: 9%;}
+
+
+#corpo .banner_servico .servico .texto-servico button {margin:0 auto; font-size:4vw;}
+#corpo .text-fast-top .texto-chamada-topo {
+  margin-top: 5%;
+}
+.titulo-section-servicos h3{font-size:3.6vw; margin-bottom:10%;}
+hr:nth-of-type(1){
+  margin: -14% 0 14%;
+}
+hr:nth-of-type(2){
+  margin: -2% 0 14%;
+}
+hr:nth-of-type(3){
+  margin: 15% 0 12%;
+}
+hr:nth-of-type(4){
+  margin: 12% 0 13%;
+}
+hr:nth-of-type(5){
+  margin: 16% 0 14%;
+}
+/* SEÇAO DE ORIENTAÇÃO */
+#corpo .banner_servico .servico .orientacao h3{
+  margin-bottom:8%;
+}
+#corpo .banner_servico .servico .orientacao button{margin-top:13% }
+#corpo .banner_servico .servico .orientacao hr{margin:0%}
+/* SEÇAO DE SEGURO */
+#corpo .banner_servico .servico .seguro h3{margin-bottom:9%}
+#corpo .banner_servico .servico .seguro button{margin-top: -8%}
+/* SEÇAO DE GARATIA ESTENDIDA */
+#corpo .banner_servico .servico .garantia h3{margin-bottom:9%;}
+#corpo .banner_servico .servico .garantia button{margin-top:12% }
+/* SEÇAO SUPORTE TECNICO*/
+#corpo .banner_servico .servico .suporte h3{margin-bottom:8}
+#corpo .banner_servico .servico .suporte button{margin-top:-10% }
+/* SEÇAO CASA INTELIGENTE*/
+#corpo .banner_servico .servico .casa h3{margin:10% auto 14%}
+#corpo .banner_servico .servico .casa button{margin-top:25% }
+/* SEÇÃO DO GRUPO DE ARTISTAS */
+#corpo .grupo-artista::before {
+    padding-top: 59.0625%;
+}
+#corpo .texto-sobre-artistas .texto-complemento p{ width:95%; font-size:3.6vw;line-height:5.3vw}
+#corpo .texto-sobre-artistas h3,
+#corpo .texto-sobre-artistas p
+{ font-size:4.5vw;}
+#corpo .texto-sobre-artistas button{
+ margin: 10% auto 16%;
+}
 
 }
 
